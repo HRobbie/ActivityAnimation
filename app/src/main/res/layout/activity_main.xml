@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff00"
+    tools:context="com.hrobbie.activityanimation.MainActivity">
+
+   <Button
+       android:id="@+id/btn_common"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="android5.0以下的方法"
+       />
+   <Button
+       android:id="@+id/btn_circle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="android5.0以上的圆形"
+       />
+
+   <Button
+       android:id="@+id/btn_explode"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="5.0以上的爆炸界面"
+       />
+   <Button
+       android:id="@+id/btn_fade"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="5.0以上的淡化界面"
+       />
+   <Button
+       android:id="@+id/btn_share"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="5.0以上的共享元素界面"
+       />
+</LinearLayout>

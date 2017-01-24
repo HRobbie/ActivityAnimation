@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hrobbie.activityanimation.BlueActivity">
+
+    <View
+        android:id="@+id/share_blue"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="#6699ff"
+        android:transitionName="sharedBlue"
+
+        android:layout_alignParentBottom="true"
+        />
+    <View
+        android:id="@+id/share_yellow"
+        android:layout_alignParentRight="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="#ffff00"
+        android:transitionName="sharedYellow"
+        />
+</RelativeLayout>
